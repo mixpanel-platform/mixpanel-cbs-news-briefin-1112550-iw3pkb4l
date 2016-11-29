@@ -1,4 +1,4 @@
-/* Set data for non-livestream charts and tables 
+/* Set data for non-livestream charts and tables
 	Edit keys and values in this object to change the bar chart */
 
 var topSectionData = {
@@ -12,15 +12,15 @@ var topSectionData = {
 // Modify headers by changing first internal array's strings
 // Modify data by changing the subsequent arrays
 var topContentData = [
-	['Content Title', 'Content Age', 'Unique Views'],
-	['Title 1', '10h 30m', '230,400'],
-	['Title 2', '11h 5m', '222,900'],
-	['Title 3', '9h 22m', '215,651'],
-	['Title 4', '8h 33m', '209,255'],
-	['Title 5', '6h 49m', '201,857'],
-	['Title 6', '7h 2m', '194,101'],
-	['Title 7', '8h 14m', '188,540'],
-	['Title 8', '5h 57m', '181,253'],
+	['Slot', 'Content Age', 'Unique Views'],
+	['Slot 1', '10h 30m', '230,400'],
+	['Slot 2', '11h 5m', '222,900'],
+	['Slot 3', '9h 22m', '215,651'],
+	['Slot 4', '8h 33m', '209,255'],
+	['Slot 5', '6h 49m', '201,857'],
+	['Slot 6', '7h 2m', '194,101'],
+	['Slot 7', '8h 14m', '188,540'],
+	['Slot 8', '5h 57m', '181,253'],
 ];
 
 // To change content share types, change the names of the keys here (up to 4 names max)
@@ -130,7 +130,7 @@ function drawAxisBackgrounds() {
 
 
 // Render a JQL query as a styled MP Chart
-// PARAMS: 
+// PARAMS:
 //	elementSelector - ID or classes needed to target element for .MPChart() call
 //	data - Data returned from JQL query to populate chart
 function renderChart(elementSelector, data, chartType) {
